@@ -16,5 +16,8 @@ dependencyResolutionManagement {
 include(
     ":shared:components",
     ":shared:data:model",
+    // ":shared:data:infra",
     ":androidApp",
 )
+
+includeBuild("build-logic")

@@ -70,3 +70,10 @@ kotest-framework-engine = { module = "io.kotest:kotest-framework-engine", versio
 kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 
 robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+
+[bundles]
+plugins = [
+    "kotlin-gradle-plugin",
+    "detekt-plugin",
+    "kotest-plugin",
+]
