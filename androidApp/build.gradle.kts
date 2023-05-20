@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":shared"))
+    implementation(project(":shared:data:model"))
     implementation(compose.ui)
     implementation(compose.uiTooling)
     implementation(compose.preview)

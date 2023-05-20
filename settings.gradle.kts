@@ -14,6 +14,7 @@ dependencyResolutionManagement {
 }
 
 include(
-    ":shared",
+    ":shared:components",
+    ":shared:data:model",
     ":androidApp",
 )
