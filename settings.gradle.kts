@@ -13,6 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KMM_Kotest_Sample"
-include(":androidApp")
-include(":shared")
+include(
+    ":shared",
+    ":androidApp",
+)
